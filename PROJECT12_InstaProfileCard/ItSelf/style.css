@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(188, 224, 212);
+    flex-wrap: wrap;
+    font-family: helvetica now display;
+}
+.box{
+    flex-shrink: 0;
+    height: 350px;
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 20px ;
+    text-align: center;
+    background: radial-gradient();
+    box-shadow: 2px 2px black;
+}
+.background{
+    height: 80px;
+    width: 100%;
+}
+.background img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+
+}
+.box .profileimg{
+    height: 70px;
+    width: 70px;
+    margin-top: -8px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+.profile{
+    height: 50px;
+    width: 50px;
+}
+.lining{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lining .line{
+    height: 2px;
+    width: 50px;
+  background-color: rgb(138, 132, 132);
+  margin-bottom: 5px;
+}
+.box h1{
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+.box h4{
+    font-size: 15px;
+    color: rgb(89, 81, 81);
+    margin-bottom: 5px;
+}
+.box p{
+    font-size: 17px;
+    color: rgb(60, 57, 57);
+    margin-bottom: 15px;
+}
+
+.follow{
+    color: rgba(0, 0, 0, 0.873);
+}
+
+
+.follow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
